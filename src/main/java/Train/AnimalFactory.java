@@ -40,7 +40,7 @@ public class AnimalFactory {
             if(animalsInitialized.containsKey(animalName))
             {
                 return (Animal) animalsInitialized.get(animalName);
-            }
+            } 
             else
             {
                 try
